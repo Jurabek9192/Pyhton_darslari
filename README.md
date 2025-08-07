@@ -1,2 +1,2 @@
 # Pyhton_darslari
-Python_darslar
+Python darslari shu yerda saqlanib boriladi
