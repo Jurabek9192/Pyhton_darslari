@@ -30,3 +30,25 @@ unittest.main()
 
 
 
+num=int(input('Please enter a number:'))
+
+# Even or odd
+
+word='even' if num%2==0 else 'odd'
+
+# Prime Check
+
+if num>1:
+    for i in range(2, int(num**0.5)+1):
+        if num%i==0:
+            prime_status='not prime'
+            break
+        
+    else:
+        prime_status='prime'
+else:
+    prime_status='not prime'
+    
+print(f"{num} is {word} and {prime_status}.")
+
+
